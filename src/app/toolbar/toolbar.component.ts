@@ -7,7 +7,6 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ToolbarComponent implements OnInit {
   title = 'ng-material-okta-template';
-  isAuthenticated: boolean;
 
   constructor() { }
 
