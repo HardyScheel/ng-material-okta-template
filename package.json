@@ -1,6 +1,6 @@
 {
   "name": "ng-material-okta-template",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -16,6 +16,7 @@
     "@angular/common": "~10.1.1",
     "@angular/compiler": "~10.1.1",
     "@angular/core": "~10.1.1",
+    "@angular/flex-layout": "10.0.0-beta.32",
     "@angular/forms": "~10.1.1",
     "@angular/material": "~10.2.0-rc.0-sha-7ec514be9",
     "@angular/platform-browser": "~10.1.1",

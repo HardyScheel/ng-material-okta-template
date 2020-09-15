@@ -18,13 +18,14 @@
     </button>
     <button mat-button routerLink="/game">
       <mat-icon>gamepad</mat-icon>
-      Play
+      Your Component here
     </button>
   </div>
   <button mat-button [mat-menu-trigger-for]="menu" fxHide="false" fxHide.gt-sm>
     <mat-icon>menu</mat-icon>
   </button>
 </mat-toolbar>
+
 <mat-menu x-position="before" #menu="matMenu">
   <button mat-menu-item routerLink="/">
     <mat-icon>home</mat-icon>
@@ -32,7 +33,7 @@
   </button>
   <button mat-menu-item routerLink="/game">
     <mat-icon>gamepad</mat-icon>
-    Play
+    Your Component here
   </button>
   <button mat-menu-item routerLink="/login" *ngIf="!isAuthenticated">
     <mat-icon>power_settings_new</mat-icon>
