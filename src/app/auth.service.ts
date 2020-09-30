@@ -9,8 +9,8 @@ import { OktaAuth } from '@okta/okta-auth-js';
 export class AuthService {
 
   private authClient = new OktaAuth({
-    issuer: 'https://{YourOktaDomain}/oauth2/default',
-    clientId: '{YourClientId}'
+    issuer: 'https://dev-159045.okta.com/oauth2/default',
+    clientId: '0oaxcx7r3Qi53QGud4x6'
   });
 
   public isAuthenticated = new BehaviorSubject<boolean>(false);

@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "ng-material-okta-template"
+  },
+  "targets": {
+    "ng-material-okta-template": {
+      "hosting": {
+        "ng-material-okta-template": [
+          "ng-material-okta-template"
+        ]
+      }
+    }
+  }
+}
